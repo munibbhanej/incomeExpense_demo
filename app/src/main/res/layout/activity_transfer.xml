@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackgroundColor"
+    android:layoutDirection="ltr"
+    tools:context=".Activity.Income_Activity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout" />
+
+    <!--    // #1   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:layoutDirection="ltr"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <TextView
+            android:id="@+id/amount__transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/amount__transfer"
+            android:textAllCaps="false"
+            android:textColor="?attr/customTextColor"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/transfer_ent_txt_1"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_toEndOf="@+id/amount__transfer"
+            android:background="@null"
+            android:hint="@string/transfer_ent_txt_1"
+            android:inputType="number"
+            android:textColor="?attr/android:textColor"
+            android:textColorHint="#B2B2B2"
+            android:textCursorDrawable="@null"
+            android:textDirection="ltr"
+            android:textSize="@dimen/_16sdp" />
+
+    </RelativeLayout>
+
+    <!--    // #2   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_relativelayout_1">
+
+        <TextView
+            android:id="@+id/category_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/category_txt_lay2_addIncome"
+            android:textAllCaps="false"
+            android:textColor="?attr/customTextColor"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/transfer_cat_icon_2"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:src="@drawable/account_transfer_62" />
+
+        <TextView
+            android:id="@+id/transfer_cat_txt_2"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:singleLine="true"
+            android:text="Account Transfer"
+            android:textColor="?attr/android:textColor"
+            android:textDirection="ltr"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+    <!--    // #3   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_relativelayout_2">
+
+        <TextView
+            android:id="@+id/paymentMethod_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/paymentMethod_txt_lay3_addIncome"
+            android:textAllCaps="false"
+            android:textColor="?attr/customTextColor"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/transfer_payment_method_txt_3"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:background="@null"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:text="Bank"
+            android:textColor="?attr/android:textColor"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+    <!--    // #4   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_relativelayout_3">
+
+        <TextView
+            android:id="@+id/notes_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/notes_txt_lay4_addIncome"
+            android:textAllCaps="false"
+            android:textColor="?attr/customTextColor"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/transfer_voice_icon_4"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/voice_icon_dark" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/transfer_notes_txt_4"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@null"
+            android:hint="@string/notes_hint_txt_lay4_addIncome"
+            android:inputType="textVisiblePassword|textNoSuggestions"
+            android:textColor="?attr/android:textColor"
+            android:textColorHint="#B2B2B2"
+            android:textCursorDrawable="@null"
+            android:textDirection="ltr"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:id="@+id/transfer_notes_icon_4"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:src="@drawable/addimage_icon" />
+
+    </RelativeLayout>
+
+    <!--    // #5   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_relativelayout_4">
+
+        <LinearLayout
+            android:id="@+id/from_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/from_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/from_transfer"
+                android:textAllCaps="false"
+                android:textColor="?attr/customTextColor"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:id="@+id/transfer_relativelayout_10"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:background="@drawable/edttxt_bg"
+                android:layoutDirection="ltr"
+                android:padding="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/transfer_from_txt_5"
+                    android:layout_width="@dimen/_180sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Bank"
+                    android:textColor="?attr/android:textColor"
+                    android:textSize="@dimen/_12sdp" />
+
+                <ImageView
+                    android:id="@+id/from_dropdown_icon_transfer"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_toEndOf="@+id/transfer_from_txt_5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dropdown_arrow" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/account_from_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/from_linearlayout"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/account_from_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/account_from_transfer"
+                android:textAllCaps="false"
+                android:textColor="?attr/customTextColor"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/transfer_account_from_txt_5"
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_11sdp"
+                android:background="@null"
+                android:paddingTop="@dimen/_1sdp"
+                android:paddingBottom="@dimen/_1sdp"
+                android:text="Bhanej Munib"
+                android:textColor="?attr/android:textColor"
+                android:textSize="@dimen/_12sdp" />
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/account_from_dropdown_icon_transfer"-->
+            <!--                android:layout_width="@dimen/_10sdp"-->
+            <!--                android:layout_height="@dimen/_10sdp"-->
+            <!--                android:src="@drawable/dropdown_arrow"-->
+            <!--                android:layout_gravity="center_horizontal|center_vertical"/>-->
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <!--    // #6   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_relativelayout_5">
+
+
+        <RelativeLayout
+            android:id="@+id/to_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr">
+
+            <TextView
+                android:id="@+id/to_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/to_transfer"
+                android:textAllCaps="false"
+                android:textColor="?attr/customTextColor"
+                android:textSize="@dimen/_13sdp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+
+            <RelativeLayout
+                android:id="@+id/transfer_relativelayout_11"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="@dimen/_35sdp"
+                android:background="@drawable/edttxt_bg"
+                android:layout_toEndOf="@+id/to_transfer"
+                android:padding="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/transfer_to_txt_6"
+                    android:layout_width="@dimen/_180sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:text="Bank"
+                    android:textColor="?attr/android:textColor"
+                    android:textSize="@dimen/_12sdp" />
+
+                <ImageView
+                    android:id="@+id/to_dropdown_icon_transfer"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_toEndOf="@+id/transfer_to_txt_6"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dropdown_arrow" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/account_to_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/to_linearlayout"
+            android:layout_marginTop="@dimen/_14sdp">
+
+
+            <TextView
+                android:id="@+id/account_to_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/account_to_transfer"
+                android:layout_centerVertical="true"
+                android:textAllCaps="false"
+                android:textColor="?attr/customTextColor"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold"/>
+
+
+            <RelativeLayout
+                android:id="@+id/transfer_relativelayout_12"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edttxt_bg"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_toEndOf="@+id/account_to_transfer"
+                android:layout_marginEnd="@dimen/_7sdp">
+
+                <TextView
+                    android:id="@+id/transfer_account_to_txt_6"
+                    android:layout_width="@dimen/_180sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Select Account"
+                    android:textColor="?attr/android:textColor"
+                    android:textSize="@dimen/_12sdp" />
+
+                <ImageView
+                    android:id="@+id/account_to_dropdown_icon_transfer"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_toEndOf="@+id/transfer_account_to_txt_6"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dropdown_arrow" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--    // #7   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_7"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_relativelayout_6">
+
+        <ImageView
+            android:id="@+id/transfer_less_icon_7"
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/less_than_dark" />
+
+
+        <TextView
+            android:id="@+id/transfer_txt_7"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:text=""
+            android:textColor="?attr/android:textColor"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:id="@+id/transfer_greater_icon_7"
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/_110sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/greater_then_dark" />
+
+
+        <ImageView
+            android:id="@+id/transfer_date_icon_7"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_140sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/calendar_icon" />
+
+    </RelativeLayout>
+
+    <!--    // #8   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_8"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/transfer_relativelayout_7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/transfer_relativelayout_7"
+        app:layout_constraintTop_toTopOf="@+id/transfer_relativelayout_7">
+
+
+        <TextView
+            android:id="@+id/transfer_txt_8"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:background="@null"
+            android:text=""
+            android:textColor="?attr/android:textColor"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <ImageView
+            android:id="@+id/transfer_clock_icon_8"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_80sdp"
+            android:src="@drawable/clock_icon" />
+
+    </RelativeLayout>
+
+    <!--    // #9   -->
+    <RelativeLayout
+        android:id="@+id/transfer_relativelayout_9"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:padding="@dimen/_5sdp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transfer_relativelayout_7">
+
+        <TextView
+            android:id="@+id/practice_txt"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            android:background="@null"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:text="name"
+            android:textColor="?attr/android:textColor"
+            android:textSize="@dimen/_12sdp" />
+    </RelativeLayout>
+
+
+    <!--   Transfer Button   -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/transfer_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="?attr/customButtonColor"
+        android:fontFamily="@font/inter"
+        android:text="@string/transfer_btn"
+        android:textAllCaps="false"
+        android:textColor="?attr/customButtonTextColor"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

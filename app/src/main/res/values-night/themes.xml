@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.INCOME_AND_EXPENSE" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/statusbar_color_dark</item>// statusbar_color change
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Add custom attributes -->
+        <item name="customButtonColor">@color/darkButtonColor</item>// add_inc_button_background
+        <item name="customButtonTextColor">@color/darkButtonTextColor</item>//  add_inc_button_text_color
+        <item name="customBackgroundColor">@color/darkBackground</item> // add_inc_background
+        <item name="backgroundColor">@color/toolbar_color_dark</item> //  toolbar_color_change
+        <item name="customTextColor">@color/darkText1</item>
+        <item name="android:textColor">@color/darkText2</item>
+        <item name="colorCardBackground">@color/darkCardview</item>
+        <item name="listItemTextColor">@color/listItemTextColorDark</item>
+        <item name="navDrawerBackgroundColor">@color/navDrawerBackgroundDark</item>
+        <item name="navDrawerTextColor">@color/navDrawerTextDark</item>
+    </style>
+
+
+</resources>

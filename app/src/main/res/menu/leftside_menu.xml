@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+
+        <item android:title="Show On Home Screen">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_recenttransaction"
+                    android:icon="@drawable/recent_trans"
+                    android:title="Recent Transactions" />
+                <item
+                    android:id="@+id/nav_paymentmethod"
+                    android:icon="@drawable/wallet_icon"
+                    android:title="Payment Method" />
+                <item
+                    android:id="@+id/nav_category"
+                    android:icon="@drawable/category_chart"
+                    android:title="Category" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+            <item
+                android:id="@+id/nav_paymentmethod_chart"
+                android:icon="@drawable/bar_chart"
+                android:title="Payment Method Chart" />
+        <item
+            android:id="@+id/nav_category_chart"
+            android:icon="@drawable/pie_chart_icon"
+            android:title="Category Chart" />
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/avatar"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_darkmode"
+            android:icon="@drawable/dark_mode"
+            android:title="Dark Mode" />
+<!--        <item-->
+<!--            android:id="@+id/nav_backupandrestore"-->
+<!--            android:icon="@drawable/backup_and_restore"-->
+<!--            android:title="Backup and Restore" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_removeads"-->
+<!--            android:icon="@drawable/remove_ads"-->
+<!--            android:title="Remove Ads" />-->
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/language_icon"
+            android:title="Languages" />
+<!--        <item-->
+<!--            android:id="@+id/nav_help"-->
+<!--            android:icon="@drawable/help_icon"-->
+<!--            android:title="Help" />-->
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/rateus_icon"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/nav_shareapp"
+            android:icon="@drawable/shareapp_icon"
+            android:title="Share APP" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group4">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/log_out_icon"
+                    android:title="Logout" />
+
+    </group>
+
+</menu>

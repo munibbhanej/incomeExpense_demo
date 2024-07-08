@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTheme">
+        <attr name="colorPrimaryDark" format="color" />// statusbar_color change
+        <attr name="customBackgroundColor" format="color" />// add_inc_background
+        <attr name="android:background" format="color" />// add_inc_background
+        <attr name="customButtonColor" format="color" />// add_inc_button_background
+        <attr name="customButtonTextColor" format="color" />//  add_inc_button_text_color
+        <attr name="backgroundColor" format="color" />//  toolbar_color_change
+        <attr name="android:textColor" format="color" />//  text1_color_change
+        <attr name="customTextColor" format="color" />//  text2_color_change
+        <attr name="colorCardBackground" format="color" />// add_inc_background
+        <attr name="listItemTextColor" format="color" />
+        <attr name="navDrawerBackgroundColor" format="color"/>
+        <attr name="navDrawerTextColor" format="color"/>
+
+
+
+    </declare-styleable>
+</resources>

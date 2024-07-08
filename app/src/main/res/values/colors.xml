@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#0288D1</color>
+    <color name="purple_700">#00579C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="statusbar">#00243E</color>
+
+    <color name="t1">#1D5A20</color>
+    <color name="t2">#6A6A6A</color>
+    <color name="t3">#E63131</color>
+
+
+    <color name="txt2">#6A6A6A</color>
+    <color name="income1">#1D5A20</color>
+    <color name="income2">#4DDA54</color>
+    <color name="expense1">#E63131</color>
+    <color name="expense2">#FF3838</color>
+    <color name="total1">#000000</color>
+    <color name="total2">#B2B2B2</color>
+    <color name="list_bg">#212121</color>
+    <color name="list_text_color">#B2B2B2</color>
+
+
+    <color name="colorPrimary">#0288D1</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    //                             Light
+
+    <color name="statusbar_color_light">#00579C</color>
+    <color name="toolbar_color_light">#0288D1</color>
+    <color name="lightButtonColor">#0288D1</color>
+    <color name="lightButtonTextColor">#FFFFFF</color>
+    <color name="lightBackground">#FFFFFF</color>
+    <color name="lightBackground_home">#FFFFFF</color>
+    <color name="lightText1">#000000</color>
+    <color name="lightText2">#6A6A6A</color>
+    <color name="lightCardview">#FFFFFF</color>
+    <color name="itemBackgroundLight">#FFFFFF</color>
+    <color name="itemTextColorLight">#0020F3</color>
+    <color name="listItemTextColorLight">#000000</color>
+    <color name="navDrawerBackgroundLight">#FFFFFF</color>
+    <color name="navDrawerTextLight">#00579C</color>
+
+
+    //Dark
+    <color name="statusbar_color_dark">#000000</color>
+    <color name="toolbar_color_dark">#000000</color>
+    <color name="darkButtonColor">#0288D1</color>
+    <color name="darkButtonTextColor">#FFFFFF</color>
+    <color name="darkBackground">#212121</color>
+    <color name="darkBackground_home">#000000</color>
+    <color name="darkText1">#B2B2B2</color>
+    <color name="darkText2">#B2B2B2</color>
+    <color name="darkCardview">#000000</color>
+    <color name="itemBackgroundDark">#000000</color>
+    <color name="itemTextColorDark">#001AFF</color>
+    <color name="listItemTextColorDark">#B2B2B2</color>
+    <color name="navDrawerBackgroundDark">#212121</color>
+    <color name="navDrawerTextDark">#B2B2B2</color>
+
+</resources>

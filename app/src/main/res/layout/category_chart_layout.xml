@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/cat_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_22sdp"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_weight="0"
+                android:gravity="start"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/cat_category_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other Expense"
+                    android:textColor="?attr/listItemTextColor"
+                    android:letterSpacing="0.05"
+                    android:textSize="@dimen/_10sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_70sdp"
+                android:layout_weight="0"
+                android:textAlignment="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inc_exp_category_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1000"
+                    android:textAlignment="center"
+                    android:textColor="?attr/listItemTextColor"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_weight="0"
+                android:textAlignment="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/percentage_category_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="72.22"
+                    android:gravity="right"
+                    android:textColor="?attr/listItemTextColor"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

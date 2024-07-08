@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">Income Expense</string>
+
+    <string name="navigation_open" translatable="false">Open Navigation drawer</string>
+    <string name="navigation_close" translatable="false">Close Navigation drawer</string>
+
+    <string-array name="paymentmethod">
+        <item>Bank</item>
+        <item>Card</item>
+        <item>Cash</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="account">
+        <item>Income Expense</item>
+    </string-array>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Home Screen
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="add_income">Add Income</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="transfer">Transfer</string>
+    <string name="transactions">Transactions</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="income_lay2">Income</string>
+    <string name="expense_lay2">Expense</string>
+    <string name="balance_one_lay2">Balance</string>
+    <string name="prev_balance_lay2">Previous Balance</string>
+    <string name="balance_two_lay2">Balance</string>
+
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="recent_transaction_lay3">Recent Transactions</string>
+    <string name="more_btn_lay3">More -></string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="payment_method_lay4">Payment Method</string>
+    <string name="more_btn_lay4">More -></string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="monhtly_expense_lay5">Monthly Expense</string>
+    <string name="more_btn_lay5">More -></string>
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Add Income
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="add_income_title">Add Income</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="income_txt_lay1_addIncome">Income</string>
+    <string name="enter_income_txt_lay1_addIncome">Enter Amount</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="category_txt_lay2_addIncome">Category</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="paymentMethod_txt_lay3_addIncome">Payment Method</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="notes_txt_lay4_addIncome">Notes</string>
+    <string name="notes_hint_txt_lay4_addIncome">[Optional]</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="save_btn_txt_lay5_addIncome">Save</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Add Expense
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="add_expense_title">Add Expense</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="expense_txt_lay1_addExpense">Expense</string>
+    <string name="enter_income_txt_lay1_addExpense">Enter Amount</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="category_txt_lay2_addExpense">Category</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="paymentMethod_txt_lay3_addExpense">Payment Method</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="notes_txt_lay4_addExpense">Notes</string>
+    <string name="notes_hint_txt_lay4_addExpense">[Optional]</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="save_btn_txt_lay5_addExpense">Save</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Transfer
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="transfer_title">Transfer</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="amount__transfer">Amount : </string>
+    <string name="transfer_ent_txt_1">Enter Amount</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="from_transfer">From : </string>
+    <string name="account_from_transfer">Account : </string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="to_transfer">To : </string>
+    <string name="account_to_transfer">Account : </string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="transfer_btn">Transfer</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Transactions
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="transaction_title">Transactions</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="all_btn_txt_lay1_transactions">All</string>
+    <string name="today_btn_txt_lay1_transactions">Today</string>
+    <string name="weekly_btn_txt_lay1_transactions">Weekly</string>
+    <string name="monthly_btn_txt_lay1_transactions">Monthly</string>
+    <string name="yearly_btn_txt_lay1_transactions">Yearly</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="income_btn_txt_lay2_transactions">Income</string>
+    <string name="expense_btn_txt_lay2_transactions">Expense</string>
+    <string name="date_asc_btn_txt_lay2_transactions">Date Ascending</string>
+    <string name="date_desc_btn_txt_lay2_transactions">Date Descending</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="all_btn_txt_lay3_transactions">All</string>
+    <string name="today_btn_txt_lay3_transactions">Today</string>
+    <string name="weekly_btn_txt_lay3_transactions">Weekly</string>
+    <string name="monthly_btn_txt_lay3_transactions">Monthly</string>
+    <string name="yearly_btn_txt_lay3_transactions">Yearly</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="date_txt_lay4_transactions">Date</string>
+    <string name="category_txt_lay4_transactions">Category</string>
+    <string name="income_txt_lay4_transactions">Income</string>
+    <string name="expense_txt_lay4_transactions">Expense</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="income_btn_txt_lay5_transactions">Income</string>
+    <string name="expense_btn_txt_lay5_transactions">Expense</string>
+
+    // {------------------------------Layout 6------------------------------}
+    <string name="total_inc_txt_lay6_transactions">Total Income</string>
+    <string name="total_exp_txt_lay6_transactions">Total Expense</string>
+    <string name="balance_txt_lay6_transactions">Balance</string>
+
+    // {------------------------------Layout 7------------------------------}
+    <string name="pre_bal_txt_lay7_transactions">Previous Balance</string>
+    <string name="total_bal_bal_txt_lay7_transactions">Total Balance</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Category Chart ----->>>> SUMMARY
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+    <string name="category_chart_title">Category Chart</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="tab_summary_lay1_cat_chart">SUMMARY</string>
+    <string name="tab_expense_lay1_cat_chart">EXPENSE</string>
+    <string name="tab_income_lay1_cat_chart">INCOME</string>
+
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="all_btn_txt_lay2_cat_chart">All</string>
+    <string name="today_btn_txt_lay2_cat_chart">Today</string>
+    <string name="weekly_btn_txt_lay2_cat_chart">Weekly</string>
+    <string name="monthly_btn_txt_lay2_cat_chart">Monthly</string>
+    <string name="yearly_btn_txt_lay2_cat_chart">Yearly</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="all_btn_txt_lay3_cat_chart">All</string>
+    <string name="today_btn_txt_lay3_cat_chart">Today</string>
+    <string name="weekly_btn_txt_lay3_cat_chart">Weekly</string>
+    <string name="monthly_btn_txt_lay3_cat_chart">Monthly</string>
+    <string name="yearly_btn_txt_lay3_cat_chart">Yearly</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="total_inc_txt_lay4_cat_chart">Total Income</string>
+    <string name="total_exp_txt_lay4_cat_chart">Total Expense</string>
+    <string name="balance_txt_lay4_cat_chart">Balance</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="pie_cat_chart_balance">Balance : </string>
+    <string name="pie_cat_chart_total">Total : </string>
+    <string name="income_cat_chart_txt">Income</string>
+    <string name="expense_cat_chart_txt">Expense</string>
+
+    // {------------------------------Layout 6------------------------------}
+    <string name="category_txt_cat_chart">Category</string>
+    <string name="amount_txt_cat_chart">Amount</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // PaymentMethod Chart
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="payment_method_title">Payment Method Chart</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="all_btn_txt_lay1_pay_meth">All</string>
+    <string name="today_btn_txt_lay1_pay_meth">Today</string>
+    <string name="weekly_btn_txt_lay1_pay_meth">Weekly</string>
+    <string name="monthly_btn_txt_lay1_pay_meth">Monthly</string>
+    <string name="yearly_btn_txt_lay1_pay_meth">Yearly</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="all_btn_txt_lay2_pay_meth">All</string>
+    <string name="today_btn_txt_lay2_pay_meth">Today</string>
+    <string name="weekly_btn_txt_lay2_pay_meth">Weekly</string>
+    <string name="monthly_btn_txt_lay2_pay_meth">Monthly</string>
+    <string name="yearly_btn_txt_lay2_pay_meth">Yearly</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="total_txt_lay3_pay_meth">Total Income</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="pay_meth_txt_lay4_all_pm">Payment Method</string>
+    <string name="amount_txt_lay4_all_pm">Amount</string>
+    <string name="bar_cat_chart_balance">Total : </string>
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Profile
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="profile_title">Profile</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="total_income_profile">Total Income</string>
+    <string name="total_expense_profile">Total Expense</string>
+    <string name="username_profile">User Name</string>
+    <string name="email_profile">E-mail</string>
+    <string name="password_profile">Password</string>
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Update Profile
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="update_profile_title">Edit Profile</string>
+    // {------------------------------Layout 1------------------------------}
+
+    <string name="username_update_profile">User Name</string>
+    <string name="email_update_profile">E-mail</string>
+    <string name="password_update_profile">Password</string>
+    <string name="con_password_update_profile">Confirm Password</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="btn_update_profile">UPDATE PROFILE</string>
+
+
+
+</resources>

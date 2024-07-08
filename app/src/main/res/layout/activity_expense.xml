@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackgroundColor"
+    android:layoutDirection="ltr"
+    tools:context=".Activity.Expense_Activity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout" />
+
+    <!--    // #1   -->
+    <RelativeLayout
+        android:id="@+id/expense_relativelayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <TextView
+            android:id="@+id/expense__addExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/expense_txt_lay1_addExpense"
+            android:textAllCaps="false"
+            android:textColor="#E63131"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/expense_ent_txt_1"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:textDirection="ltr"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@null"
+            android:hint="@string/enter_income_txt_lay1_addExpense"
+            android:textCursorDrawable = "@null"
+            android:inputType="number"
+            android:textColor="?attr/android:textColor"
+            android:textColorHint="#B2B2B2"
+            android:textSize="@dimen/_16sdp" />
+
+        <ImageView
+            android:id="@+id/expense_cal_icon_1"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:src="@drawable/calculator_icon" />
+
+    </RelativeLayout>
+
+    <!--    // #2   -->
+    <RelativeLayout
+        android:id="@+id/expense_relativelayout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expense_relativelayout_1">
+
+        <TextView
+            android:id="@+id/category_addExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/category_txt_lay2_addExpense"
+            android:textAllCaps="false"
+            android:textColor="?attr/customTextColor"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/expense_cat_icon_2"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:src="@drawable/other_expense_42" />
+
+        <TextView
+            android:id="@+id/expense_cat_txt_2"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:text="Other Expense"
+            android:textColor="?attr/android:textColor"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:src="@drawable/category_icon" />
+
+    </RelativeLayout>
+
+    <!--    // #3   -->
+    <RelativeLayout
+        android:id="@+id/expense_relativelayout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expense_relativelayout_2">
+
+        <TextView
+            android:id="@+id/paymentMethod_addExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/paymentMethod_txt_lay3_addExpense"
+            android:textAllCaps="false"
+            android:textColor="?attr/customTextColor"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expense_payment_method_txt_3"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:background="@null"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:text="Cash"
+            android:textColor="?attr/android:textColor"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:src="@drawable/wallet_icon" />
+
+    </RelativeLayout>
+
+    <!--    // #4   -->
+    <RelativeLayout
+        android:id="@+id/expense_relativelayout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expense_relativelayout_3">
+
+        <TextView
+            android:id="@+id/notes_addExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/notes_txt_lay4_addExpense"
+            android:textAllCaps="false"
+            android:textColor="?attr/customTextColor"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/expense_voice_icon_4"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/voice_icon_dark" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/expense_notes_txt_4"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:textDirection="ltr"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@null"
+            android:hint="@string/notes_hint_txt_lay4_addExpense"
+            android:inputType="textVisiblePassword|textNoSuggestions"
+            android:textCursorDrawable = "@null"
+            android:textColor="?attr/android:textColor"
+            android:textColorHint="#B2B2B2"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:id="@+id/expense_notes_icon_4"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:src="@drawable/addimage_icon" />
+
+    </RelativeLayout>
+
+    <!--    // #5   -->
+    <RelativeLayout
+        android:id="@+id/expense_relativelayout_5"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expense_relativelayout_4">
+
+        <ImageView
+            android:id="@+id/expense_less_icon_5"
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/less_than_dark" />
+
+
+        <TextView
+            android:id="@+id/expense_txt_5"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:text=""
+            android:textColor="?attr/android:textColor"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:id="@+id/expense_greater_icon_5"
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/_110sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/greater_then_dark" />
+
+
+        <ImageView
+            android:id="@+id/expense_date_icon_5"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_140sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/calendar_icon" />
+
+    </RelativeLayout>
+
+    <!--    // #6   -->
+    <RelativeLayout
+        android:id="@+id/expense_relativelayout_6"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/edttxt_bg"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/expense_relativelayout_5"
+        app:layout_constraintTop_toBottomOf="@+id/expense_relativelayout_4">
+
+
+        <TextView
+            android:id="@+id/expense_txt_6"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:background="@null"
+            android:text=""
+            android:textColor="?attr/android:textColor"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <ImageView
+            android:id="@+id/expense_clock_icon_6"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_80sdp"
+            android:src="@drawable/clock_icon" />
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/expense_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="?attr/customButtonColor"
+        android:fontFamily="@font/inter"
+        android:text="@string/save_btn_txt_lay5_addExpense"
+        android:textAllCaps="false"
+        android:textColor="?attr/customButtonTextColor"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="13dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

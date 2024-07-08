@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Income Expense</string>
+    <string name="add_income">آمدنی شامل کریں</string>
+    <string name="add_expense">خرچ  شامل کریں</string>
+    <string name="transfer">منتقلی</string>
+    <string name="transactions">لین دین</string>
+    <string name="income_lay2">آمدنی</string>
+    <string name="expense_lay2">خرچہ</string>
+    <string name="balance_one_lay2">بیلنس</string>
+    <string name="prev_balance_lay2">پچھلا بیلنس</string>
+    <string name="balance_two_lay2">بیلنس</string>
+    <string name="recent_transaction_lay3">لین دین حالیہ</string>
+    <string name="more_btn_lay3">مزید -></string>
+    <string name="payment_method_lay4">ادائیگی کا طریقہ</string>
+    <string name="more_btn_lay4">مزید -></string>
+    <string name="monhtly_expense_lay5">ماہانہ خرچہ</string>
+    <string name="more_btn_lay5">مزید -></string>
+    <string name="income_txt_lay1_addIncome">آمدنی</string>
+    <string name="enter_income_txt_lay1_addIncome">رقم درج کریں</string>
+    <string name="category_txt_lay2_addIncome">زمره</string>
+    <string name="paymentMethod_txt_lay3_addIncome">ادائیگی کا طریقہ</string>
+    <string name="notes_txt_lay4_addIncome">نوٹ</string>
+    <string name="notes_hint_txt_lay4_addIncome">[اختیاری]</string>
+    <string name="save_btn_txt_lay5_addIncome">محفوظ کریں</string>
+    <string name="expense_txt_lay1_addExpense">خرچہ</string>
+    <string name="enter_income_txt_lay1_addExpense">رقم درج کریں</string>
+    <string name="category_txt_lay2_addExpense">زمره</string>
+    <string name="paymentMethod_txt_lay3_addExpense">ادائیگی کا طریقہ</string>
+    <string name="notes_txt_lay4_addExpense">نوٹ</string>
+    <string name="notes_hint_txt_lay4_addExpense">[اختیاری]</string>
+    <string name="save_btn_txt_lay5_addExpense">محفوظ کریں</string>
+    <string name="all_btn_txt_lay1_transactions">سب</string>
+    <string name="today_btn_txt_lay1_transactions">آج</string>
+    <string name="weekly_btn_txt_lay1_transactions">ہفتہ وار</string>
+    <string name="monthly_btn_txt_lay1_transactions">ماہانہ</string>
+    <string name="yearly_btn_txt_lay1_transactions">سالانہ</string>
+    <string name="income_btn_txt_lay2_transactions">آمدنی</string>
+    <string name="expense_btn_txt_lay2_transactions">خرچہ</string>
+    <string name="date_asc_btn_txt_lay2_transactions">صعودی تاریخ</string>
+    <string name="date_desc_btn_txt_lay2_transactions">نزولی تاریخ</string>
+    <string name="all_btn_txt_lay3_transactions">سب</string>
+    <string name="today_btn_txt_lay3_transactions">آج</string>
+    <string name="weekly_btn_txt_lay3_transactions">ہفتہ وار</string>
+    <string name="monthly_btn_txt_lay3_transactions">ماہانہ</string>
+    <string name="yearly_btn_txt_lay3_transactions">سالانہ</string>
+    <string name="date_txt_lay4_transactions">تاریک</string>
+    <string name="category_txt_lay4_transactions">زمره</string>
+    <string name="income_txt_lay4_transactions">آمدنی</string>
+    <string name="expense_txt_lay4_transactions">خرچہ</string>
+    <string name="income_btn_txt_lay5_transactions">آمدنی</string>
+    <string name="expense_btn_txt_lay5_transactions">خرچہ</string>
+    <string name="total_inc_txt_lay6_transactions">کل آمدنی</string>
+    <string name="total_exp_txt_lay6_transactions">کل خرچ</string>
+    <string name="balance_txt_lay6_transactions">بیلنس</string>
+    <string name="pre_bal_txt_lay7_transactions">پچھلا بیلنس</string>
+    <string name="total_bal_bal_txt_lay7_transactions">کل بیلنس</string>
+    <string name="category_chart_title">زمرہ چارٹ</string>
+    <string name="tab_summary_lay1_cat_chart">خلاصہ</string>
+    <string name="tab_expense_lay1_cat_chart">خرچہ</string>
+    <string name="tab_income_lay1_cat_chart">آمدنی</string>
+    <string name="all_btn_txt_lay2_cat_chart">سب</string>
+    <string name="today_btn_txt_lay2_cat_chart">آج</string>
+    <string name="weekly_btn_txt_lay2_cat_chart">ہفتہ وار</string>
+    <string name="monthly_btn_txt_lay2_cat_chart">ماہانہ</string>
+    <string name="yearly_btn_txt_lay2_cat_chart">سالانہ</string>
+    <string name="all_btn_txt_lay3_cat_chart">سب</string>
+    <string name="today_btn_txt_lay3_cat_chart">آج</string>
+    <string name="weekly_btn_txt_lay3_cat_chart">ہفتہ وار</string>
+    <string name="monthly_btn_txt_lay3_cat_chart">ماہانہ</string>
+    <string name="yearly_btn_txt_lay3_cat_chart">سالانہ</string>
+    <string name="total_inc_txt_lay4_cat_chart">کل آمدنی</string>
+    <string name="total_exp_txt_lay4_cat_chart">کل خرچ</string>
+    <string name="balance_txt_lay4_cat_chart">بیلنس</string>
+    <string name="pie_cat_chart_balance">بیلنس:</string>
+    <string name="income_cat_chart_txt">آمدنی</string>
+    <string name="expense_cat_chart_txt">خرچہ</string>
+    <string name="category_txt_cat_chart">زمره</string>
+    <string name="amount_txt_cat_chart">رقم</string>
+    <string name="payment_method_title">ادائیگی کے طریقہ کار کا چارٹ</string>
+    <string name="all_btn_txt_lay1_pay_meth">سب</string>
+    <string name="today_btn_txt_lay1_pay_meth">آج</string>
+    <string name="weekly_btn_txt_lay1_pay_meth">ہفتہ وار</string>
+    <string name="monthly_btn_txt_lay1_pay_meth">ماہانہ</string>
+    <string name="yearly_btn_txt_lay1_pay_meth">سالانہ</string>
+    <string name="all_btn_txt_lay2_pay_meth">سب</string>
+    <string name="today_btn_txt_lay2_pay_meth">آج</string>
+    <string name="weekly_btn_txt_lay2_pay_meth">ہفتہ وار</string>
+    <string name="monthly_btn_txt_lay2_pay_meth">ماہانہ</string>
+    <string name="yearly_btn_txt_lay2_pay_meth">سالانہ</string>
+    <string name="total_txt_lay3_pay_meth">کل آمدنی</string>
+    <string name="pay_meth_txt_lay4_all_pm">ادائیگی کا طریقہ</string>
+    <string name="amount_txt_lay4_all_pm">رقم</string>
+    <string name="bar_cat_chart_balance">کل:</string>
+    <string name="pie_cat_chart_total">: کل</string>
+
+
+
+
+    <string name="add_income_title">آمدنی شامل کریں</string>
+    <string name="add_expense_title">خرچ  شامل کریں</string>
+    <string name="transfer_title">منتقلی</string>
+    <string name="transaction_title">لین دین</string>
+
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Transfer
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="amount__transfer"> : رقم</string>
+    <string name="transfer_ent_txt_1">رقم درج کریں</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="from_transfer"> : سے</string>
+    <string name="account_from_transfer"> : کھاتہ</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="to_transfer">: تک</string>
+    <string name="account_to_transfer"> : کھاتہ</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="transfer_btn">منتقلی</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Profile
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="profile_title">پروفائل</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="total_income_profile">کل آمدنی</string>
+    <string name="total_expense_profile">کل خرچ</string>
+    <string name="username_profile">صارف کا نام</string>
+    <string name="email_profile">ای میل</string>
+    <string name="password_profile">پاس ورڈ</string>
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Update Profile
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="update_profile_title">پروفائل میں ترمیم کریں</string>
+    // {------------------------------Layout 1------------------------------}
+
+    <string name="username_update_profile">صارف کا نام</string>
+    <string name="email_update_profile">ای میل</string>
+    <string name="password_update_profile">پاس ورڈ</string>
+    <string name="con_password_update_profile">پاس ورڈ کی تصدیق کریں</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="btn_update_profile">پروفائل اپ ڈیٹ کریں</string>
+
+
+</resources>

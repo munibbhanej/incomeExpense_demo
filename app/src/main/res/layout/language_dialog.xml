@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="?attr/colorCardBackground"
+    android:background="@drawable/dialog_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_round_remove_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/language_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Select Language"
+                android:textColor="?attr/customTextColor"
+                android:textSize="@dimen/_14sdp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#E1E1E1" />
+
+        <TextView
+            android:id="@+id/bank_txt_paymentdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="Bank"
+            android:textColor="#6A6A6A"
+            android:textSize="@dimen/_12sdp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#E1E1E1" />
+
+        <TextView
+            android:id="@+id/card_txt_paymentdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="Card"
+            android:textColor="#6A6A6A"
+            android:textSize="@dimen/_12sdp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#E1E1E1" />
+
+        <TextView
+            android:id="@+id/cash_txt_paymentdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="Cash"
+            android:textColor="#6A6A6A"
+            android:textSize="@dimen/_12sdp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#E1E1E1" />
+
+        <TextView
+            android:id="@+id/other_txt_paymentdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:text="Other"
+            android:textColor="#6A6A6A"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+    <!--    <View-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="@dimen/_1sdp"-->
+    <!--        android:layout_marginTop="@dimen/_5sdp"-->
+    <!--        android:background="#E1E1E1" />-->
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="@dimen/_15sdp"-->
+    <!--        android:background="@drawable/button_bg"-->
+    <!--        android:fontFamily="@font/inter"-->
+    <!--        android:text="Add New"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:textColor="#fff"-->
+    <!--        android:textSize="@dimen/_14sdp"/>-->
+
+
+</RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    android:orientation="vertical"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:background="@drawable/dialog1_background">-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/header_Arrow_Image"-->
+    <!--        android:layout_width="70dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/ic_round_remove_24"-->
+    <!--        android:layout_gravity="center|top"-->
+    <!--        android:scaleType="centerCrop"/>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:orientation="horizontal">-->
+
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="@dimen/_20sdp"-->
+    <!--            android:layout_height="@dimen/_20sdp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:src="@drawable/wallet_icon"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/createText"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textAlignment="viewStart"-->
+    <!--            android:text="Payment Method"-->
+    <!--            android:fontFamily="@font/inter_medium"-->
+    <!--            android:padding="8dp"-->
+    <!--            android:textColor="#8692F7"-->
+    <!--            android:layout_marginStart="@dimen/_10sdp"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:textSize="@dimen/_14sdp" />-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/Bank_txt_dialog_paymentmethod"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="10dp">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Bank"-->
+    <!--            android:textColor="#8692F7"-->
+    <!--            android:layout_marginStart="30dp"-->
+    <!--            android:textSize="16sp"/>-->
+
+    <!--    </LinearLayout>-->
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/Card_txt_dialog_paymentmethod"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="10dp">-->
+
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Card"-->
+    <!--            android:textColor="#8692F7"-->
+    <!--            android:layout_marginStart="30dp"-->
+    <!--            android:textSize="16sp"/>-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/Cash_txt_dialog_paymentmethod"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="10dp">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Cash"-->
+    <!--            android:textColor="#8692F7"-->
+    <!--            android:layout_marginStart="30dp"-->
+    <!--            android:textSize="16sp"/>-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/Other_txt_dialog_paymentmethod"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:paddingLeft="10dp"-->
+    <!--        android:paddingRight="10dp"-->
+    <!--        android:paddingTop="10dp"-->
+    <!--        android:paddingBottom="30dp">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Other"-->
+    <!--            android:textColor="#8692F7"-->
+    <!--            android:layout_marginStart="30dp"-->
+    <!--            android:textSize="16sp"/>-->
+
+    <!--    </LinearLayout>-->
+
+    <!--</LinearLayout>-->

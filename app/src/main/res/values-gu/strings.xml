@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Income Expense</string>
+    <string name="add_income">આવક ઉમેરો</string>
+    <string name="add_expense">ખર્ચ ઉમેરો</string>
+    <string name="transfer">ટ્રાન્સફર</string>
+    <string name="transactions">ટ્રાન્જેક્શન</string>
+    <string name="income_lay2">આવક</string>
+    <string name="expense_lay2">ખર્ચ</string>
+    <string name="balance_one_lay2">બેલેન્સ</string>
+    <string name="prev_balance_lay2">અગાઉનું બેલેન્સ</string>
+    <string name="balance_two_lay2">બેલેન્સ</string>
+    <string name="recent_transaction_lay3">તાજેતરના ટ્રાન્જેક્શન</string>
+    <string name="more_btn_lay3">વધુ -></string>
+    <string name="payment_method_lay4">ચુકવણી પદ્ધતિ</string>
+    <string name="more_btn_lay4">વધુ -></string>
+    <string name="monhtly_expense_lay5">માસિક ખર્ચ</string>
+    <string name="more_btn_lay5">વધુ -></string>
+    <string name="income_txt_lay1_addIncome">આવક</string>
+    <string name="enter_income_txt_lay1_addIncome">રકમ દાખલ કરો</string>
+    <string name="category_txt_lay2_addIncome">વર્ગ</string>
+    <string name="paymentMethod_txt_lay3_addIncome">ચુકવણી પદ્ધતિ</string>
+    <string name="notes_txt_lay4_addIncome">નોંધો</string>
+    <string name="notes_hint_txt_lay4_addIncome">[વૈકલ્પિક]</string>
+    <string name="save_btn_txt_lay5_addIncome">સાચવો</string>
+    <string name="expense_txt_lay1_addExpense">ખર્ચ</string>
+    <string name="enter_income_txt_lay1_addExpense">રકમ દાખલ કરો</string>
+    <string name="category_txt_lay2_addExpense">વર્ગ</string>
+    <string name="paymentMethod_txt_lay3_addExpense">ચુકવણી પદ્ધતિ</string>
+    <string name="notes_txt_lay4_addExpense">નોંધો</string>
+    <string name="notes_hint_txt_lay4_addExpense">[વૈકલ્પિક]</string>
+    <string name="save_btn_txt_lay5_addExpense">સાચવો</string>
+    <string name="all_btn_txt_lay1_transactions">બધા</string>
+    <string name="today_btn_txt_lay1_transactions">આજે</string>
+    <string name="weekly_btn_txt_lay1_transactions">સાપ્તાહિક</string>
+    <string name="monthly_btn_txt_lay1_transactions">માસિક</string>
+    <string name="yearly_btn_txt_lay1_transactions">વાર્ષિક</string>
+    <string name="income_btn_txt_lay2_transactions">આવક</string>
+    <string name="expense_btn_txt_lay2_transactions">ખર્ચ</string>
+    <string name="date_asc_btn_txt_lay2_transactions">ચડતી તારીખ</string>
+    <string name="date_desc_btn_txt_lay2_transactions">ઉતરતી તારીખ</string>
+    <string name="all_btn_txt_lay3_transactions">બધા</string>
+    <string name="today_btn_txt_lay3_transactions">આજે</string>
+    <string name="weekly_btn_txt_lay3_transactions">સાપ્તાહિક</string>
+    <string name="monthly_btn_txt_lay3_transactions">માસિક</string>
+    <string name="yearly_btn_txt_lay3_transactions">વાર્ષિક</string>
+    <string name="date_txt_lay4_transactions">તારીખ</string>
+    <string name="category_txt_lay4_transactions">વર્ગ</string>
+    <string name="income_txt_lay4_transactions">આવક</string>
+    <string name="expense_txt_lay4_transactions">ખર્ચ</string>
+    <string name="income_btn_txt_lay5_transactions">આવક</string>
+    <string name="expense_btn_txt_lay5_transactions">ખર્ચ</string>
+    <string name="total_inc_txt_lay6_transactions">કુલ આવક</string>
+    <string name="total_exp_txt_lay6_transactions">કુલ ખર્ચ</string>
+    <string name="balance_txt_lay6_transactions">બેલેન્સ</string>
+    <string name="pre_bal_txt_lay7_transactions">અગાઉનું બેલેન્સ</string>
+    <string name="total_bal_bal_txt_lay7_transactions">કુલ બેલેન્સ</string>
+    <string name="category_chart_title">વર્ગ ચાર્ટ</string>
+    <string name="tab_summary_lay1_cat_chart">સારાંશ</string>
+    <string name="tab_expense_lay1_cat_chart">ખર્ચ</string>
+    <string name="tab_income_lay1_cat_chart">આવક</string>
+    <string name="all_btn_txt_lay2_cat_chart">બધા</string>
+    <string name="today_btn_txt_lay2_cat_chart">આજે</string>
+    <string name="weekly_btn_txt_lay2_cat_chart">સાપ્તાહિક</string>
+    <string name="monthly_btn_txt_lay2_cat_chart">માસિક</string>
+    <string name="yearly_btn_txt_lay2_cat_chart">વાર્ષિક</string>
+    <string name="all_btn_txt_lay3_cat_chart">બધા</string>
+    <string name="today_btn_txt_lay3_cat_chart">આજે</string>
+    <string name="weekly_btn_txt_lay3_cat_chart">સાપ્તાહિક</string>
+    <string name="monthly_btn_txt_lay3_cat_chart">માસિક</string>
+    <string name="yearly_btn_txt_lay3_cat_chart">વાર્ષિક</string>
+    <string name="total_inc_txt_lay4_cat_chart">કુલ આવક</string>
+    <string name="total_exp_txt_lay4_cat_chart">કુલ ખર્ચ</string>
+    <string name="balance_txt_lay4_cat_chart">બેલેન્સ</string>
+    <string name="pie_cat_chart_balance">બેલેન્સ :</string>
+    <string name="pie_cat_chart_total">કુલ : </string>
+
+    <string name="income_cat_chart_txt">આવક</string>
+    <string name="expense_cat_chart_txt">ખર્ચ</string>
+    <string name="category_txt_cat_chart">વર્ગ</string>
+    <string name="amount_txt_cat_chart">રકમ</string>
+    <string name="payment_method_title">ચુકવણી પદ્ધતિ ચાર્ટ</string>
+    <string name="all_btn_txt_lay1_pay_meth">બધા</string>
+    <string name="today_btn_txt_lay1_pay_meth">આજે</string>
+    <string name="weekly_btn_txt_lay1_pay_meth">સાપ્તાહિક</string>
+    <string name="monthly_btn_txt_lay1_pay_meth">માસિક</string>
+    <string name="yearly_btn_txt_lay1_pay_meth">વાર્ષિક</string>
+    <string name="all_btn_txt_lay2_pay_meth">બધા</string>
+    <string name="today_btn_txt_lay2_pay_meth">આજે</string>
+    <string name="weekly_btn_txt_lay2_pay_meth">સાપ્તાહિક</string>
+    <string name="monthly_btn_txt_lay2_pay_meth">માસિક</string>
+    <string name="yearly_btn_txt_lay2_pay_meth">વાર્ષિક</string>
+    <string name="total_txt_lay3_pay_meth">કુલ આવક</string>
+    <string name="pay_meth_txt_lay4_all_pm">ચુકવણી પદ્ધતિ</string>
+    <string name="amount_txt_lay4_all_pm">રકમ</string>
+    <string name="bar_cat_chart_balance">કુલ:</string>
+
+    <string name="add_income_title">આવક ઉમેરો</string>
+    <string name="add_expense_title">ખર્ચ ઉમેરો</string>
+    <string name="transfer_title">ટ્રાન્સફર</string>
+    <string name="transaction_title">ટ્રાન્જેક્શન</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Transfer
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="amount__transfer">રકમ : </string>
+    <string name="transfer_ent_txt_1">રકમ દાખલ કરો</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="from_transfer">થી : </string>
+    <string name="account_from_transfer">એકાઉન્ટ : </string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="to_transfer">તરફ : </string>
+    <string name="account_to_transfer">એકાઉન્ટ : </string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="transfer_btn">ટ્રાન્સફર</string>
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Profile
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="profile_title">પ્રોફાઇલ</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="total_income_profile">કુલ આવક</string>
+    <string name="total_expense_profile">કુલ ખર્ચ</string>
+    <string name="username_profile">વપરાશકર્તા નામ</string>
+    <string name="email_profile">ઈમેઇલ</string>
+    <string name="password_profile">પાસવર્ડ</string>
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Update Profile
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="update_profile_title">પ્રોફાઇલ સંપાદિત કરો</string>
+    // {------------------------------Layout 1------------------------------}
+
+    <string name="username_update_profile">વપરાશકર્તા નામ</string>
+    <string name="email_update_profile">ઈમેઇલ</string>
+    <string name="password_update_profile">પાસવર્ડ</string>
+    <string name="con_password_update_profile">પાસવર્ડની પુષ્ટિ કરો</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="btn_update_profile">પ્રોફાઇલ અપડેટ કરો</string>
+
+
+</resources>

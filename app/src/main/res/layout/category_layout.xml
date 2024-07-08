@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="?attr/colorCardBackground"
+    android:background="@drawable/dialog3_background">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_round_remove_24" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_category"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/search_bg"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search Category . . ." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#E1E1E1" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view"
+        android:scrollbarSize="0sp"
+        android:overScrollMode="never"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="0sp"
+        android:layout_marginBottom="0sp"
+        android:background="?attr/customBackgroundColor"
+        android:scrollbars="vertical" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_above="@+id/linearLayout5"
+        android:layout_marginTop="0sp"
+        android:background="#E1E1E1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="end"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/category_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="#00000000"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="#34ACEF"
+            android:textSize="@dimen/_14sdp" />
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/category_right_btn"-->
+<!--            android:layout_width="@dimen/_40sdp"-->
+<!--            android:layout_height="@dimen/_40sdp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginEnd="@dimen/_20sdp"-->
+<!--            android:background="@drawable/baseline_add_circle_24"-->
+<!--            android:elevation="@dimen/_5sdp" />-->
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/dialog3_background">-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linear1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_round_remove_24" />-->
+
+<!--        <androidx.appcompat.widget.SearchView-->
+<!--            android:id="@+id/search_category"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_30sdp"-->
+<!--            android:layout_marginStart="@dimen/_10sdp"-->
+<!--            android:layout_marginEnd="@dimen/_10sdp"-->
+<!--            android:background="@drawable/search_bg"-->
+<!--            app:iconifiedByDefault="false"-->
+<!--            app:queryHint="Search Category . . ." />-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <View-->
+<!--        android:id="@+id/view1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_1sdp"-->
+<!--        android:layout_below="@+id/linear1"-->
+<!--        android:layout_marginTop="@dimen/_5sdp"-->
+<!--        android:background="#E1E1E1" />-->
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/scrollview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/view1"-->
+<!--        android:overScrollMode="never"-->
+<!--        android:layout_marginBottom="@dimen/_50sdp"-->
+<!--        android:layout_marginTop="@dimen/_5sdp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <GridLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:columnCount="3"-->
+<!--                android:rowCount="5">-->
+<!--                &lt;!&ndash;  x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x &ndash;&gt;-->
+
+<!--                &lt;!&ndash;                #1                           &ndash;&gt;-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_1"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_1" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Bank"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_2"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_2" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Airplane"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_3"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_3" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Card"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                &lt;!&ndash;                #2                           &ndash;&gt;-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_4"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_4" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Tractor"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_5"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_5" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Car"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_6"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_6" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Bycycle"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                &lt;!&ndash;                #3                           &ndash;&gt;-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_7"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_7" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Bus"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_8"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_8" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Food"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_9"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_9" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Truck"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                &lt;!&ndash;                #4                           &ndash;&gt;-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_10"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_10" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Petrol"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_11"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_11" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Gift"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_12"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_12" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Water"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                &lt;!&ndash;                #5                           &ndash;&gt;-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_13"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_13" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Parking"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_14"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_14" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Medicines"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_15"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_15" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Auto rickshaw"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                &lt;!&ndash;                #6                           &ndash;&gt;-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_16"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_16" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Tv"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_17"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_17" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Toll"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_18"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_18" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Train"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                &lt;!&ndash;                #7                           &ndash;&gt;-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_19"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_19" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Wifi"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_20"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_20" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Office"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cat_item_21"-->
+<!--                    android:layout_width="@dimen/_100sdp"-->
+<!--                    android:layout_height="@dimen/_80sdp"-->
+<!--                    android:layout_rowWeight="1"-->
+<!--                    android:layout_columnWeight="1"-->
+<!--                    android:focusable="true"-->
+<!--                    app:cardElevation="0sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
+
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="@dimen/_40sdp"-->
+<!--                            android:layout_height="@dimen/_40sdp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/circle_category"-->
+<!--                            android:gravity="center">-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_width="@dimen/_25sdp"-->
+<!--                                android:layout_height="@dimen/_25sdp"-->
+<!--                                android:layout_gravity="center"-->
+<!--                                android:scaleType="fitXY"-->
+<!--                                app:srcCompat="@drawable/category_22" />-->
+
+<!--                        </RelativeLayout>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_5sdp"-->
+<!--                            android:text="Gym"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+
+<!--                &lt;!&ndash;  x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x &ndash;&gt;-->
+
+<!--            </GridLayout>-->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_1sdp"-->
+<!--        android:layout_above="@+id/linearLayout5"-->
+<!--        android:background="#E1E1E1" />-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="@dimen/_5sdp"-->
+<!--        android:gravity="end"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/category_cancel_btn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginEnd="@dimen/_10sdp"-->
+<!--            android:background="#00000000"-->
+<!--            android:text="Cancel"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="#34ACEF"-->
+<!--            android:textSize="@dimen/_14sdp" />-->
+
+<!--    </LinearLayout>-->
+
+
+<!--</RelativeLayout>-->

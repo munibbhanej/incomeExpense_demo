@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp"
+    android:background="@drawable/heading_navbar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:civ_border_color="#2B82B3"
+                android:src="@drawable/heading_image"
+                app:civ_border_width="2dp" />
+        </LinearLayout>
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView_nav"-->
+<!--        android:layout_width="@dimen/_30sdp"-->
+<!--        android:layout_height="@dimen/_30sdp"-->
+<!--        android:layout_marginTop="@dimen/_10sdp"-->
+<!--        android:src="@drawable/heading_image"/>-->
+
+    <TextView
+        android:id="@+id/txtview_name_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Income Expense"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center"
+        android:textSize="@dimen/_18sdp"
+        android:textColor="#fff"/>
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="@dimen/_10sdp">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="@dimen/_20sdp"-->
+<!--            android:layout_height="@dimen/_20sdp"-->
+<!--            android:src="@drawable/category_1"-->
+<!--            android:scaleType="fitXY"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Recent Transaction"-->
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>

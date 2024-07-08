@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Income Expense</string>
+
+
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    //                                 Home Screen
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="add_income">Añadir Ingreso</string>
+    <string name="add_expense">Añadir Gasto</string>
+    <string name="transfer">Transferir</string>
+    <string name="transactions">Transacciones</string>
+    // {------------------------------Layout 2------------------------------}
+    <string name="income_lay2">Ingreso</string>
+    <string name="expense_lay2">Gasto</string>
+    <string name="balance_one_lay2">Saldo</string>
+    <string name="prev_balance_lay2">Saldo Anterior</string>
+    <string name="balance_two_lay2">Saldo</string>
+
+
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="recent_transaction_lay3">Transacciones Recientes</string>
+    <string name="more_btn_lay3">Más -></string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="payment_method_lay4">Método de pago</string>
+    <string name="more_btn_lay4">Más -></string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="monhtly_expense_lay5">Gasto Mensual</string>
+    <string name="more_btn_lay5">Más -></string>
+
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    //                                 Add Income
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="add_income_title">Añadir Ingreso</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="income_txt_lay1_addIncome">Ingreso</string>
+    <string name="enter_income_txt_lay1_addIncome">Ingrese el monto</string>
+
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="category_txt_lay2_addIncome">Categoría</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="paymentMethod_txt_lay3_addIncome">Método de pago</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="notes_txt_lay4_addIncome">Notas</string>
+    <string name="notes_hint_txt_lay4_addIncome">[Opcional]</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="save_btn_txt_lay5_addIncome">Salvo</string>
+
+
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    //                                 Add Expense
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="add_expense_title">Añadir Gasto</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="expense_txt_lay1_addExpense">Gasto</string>
+    <string name="enter_income_txt_lay1_addExpense">Ingrese el monto</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="category_txt_lay2_addExpense">Categoría</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="paymentMethod_txt_lay3_addExpense">Método de pago</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="notes_txt_lay4_addExpense">Notas</string>
+    <string name="notes_hint_txt_lay4_addExpense">[Opcional]]</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="save_btn_txt_lay5_addExpense">Salvo</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Transfer
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="transfer_title">Transferir</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="amount__transfer">Monto : </string>
+    <string name="transfer_ent_txt_1">Ingrese Monto</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="from_transfer">Desde : </string>
+    <string name="account_from_transfer">Cuenta : </string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="to_transfer">Hacia : </string>
+    <string name="account_to_transfer">Cuenta : </string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="transfer_btn">Transferir</string>
+
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    //                                 Transactions
+    // \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="transaction_title">Transacciones</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="all_btn_txt_lay1_transactions">Todo</string>
+    <string name="today_btn_txt_lay1_transactions">Hoy</string>
+    <string name="weekly_btn_txt_lay1_transactions">Semanal</string>
+    <string name="monthly_btn_txt_lay1_transactions">Mensual</string>
+    <string name="yearly_btn_txt_lay1_transactions">Anual</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="income_btn_txt_lay2_transactions">Ingresos</string>
+    <string name="expense_btn_txt_lay2_transactions">Gastos</string>
+    <string name="date_asc_btn_txt_lay2_transactions">Fecha Ascendente</string>
+    <string name="date_desc_btn_txt_lay2_transactions">Fecha Descendente</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="all_btn_txt_lay3_transactions">Todo</string>
+    <string name="today_btn_txt_lay3_transactions">Hoy</string>
+    <string name="weekly_btn_txt_lay3_transactions">Semanal</string>
+    <string name="monthly_btn_txt_lay3_transactions">Mensual</string>
+    <string name="yearly_btn_txt_lay3_transactions">Anual</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="date_txt_lay4_transactions">Fecha</string>
+    <string name="category_txt_lay4_transactions">Categoría</string>
+    <string name="income_txt_lay4_transactions">Ingresos</string>
+    <string name="expense_txt_lay4_transactions">Gastos</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="income_btn_txt_lay5_transactions">Ingresos</string>
+    <string name="expense_btn_txt_lay5_transactions">Gastos</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="total_inc_txt_lay6_transactions">Ingresos Totales</string>
+    <string name="total_exp_txt_lay6_transactions">Gastos Totales</string>
+    <string name="balance_txt_lay6_transactions">Saldo</string>
+
+    // {------------------------------Layout 7------------------------------}
+    <string name="pre_bal_txt_lay7_transactions">Saldo Anterior</string>
+    <string name="total_bal_bal_txt_lay7_transactions">Saldo Total</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Category Chart
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="category_chart_title">Gráfico de categorías</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="tab_summary_lay1_cat_chart">RESUMEN</string>
+    <string name="tab_expense_lay1_cat_chart">GASTO</string>
+    <string name="tab_income_lay1_cat_chart">INGRESO</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="all_btn_txt_lay2_cat_chart">Todo</string>
+    <string name="today_btn_txt_lay2_cat_chart">Hoy</string>
+    <string name="weekly_btn_txt_lay2_cat_chart">Semanal</string>
+    <string name="monthly_btn_txt_lay2_cat_chart">Mensual</string>
+    <string name="yearly_btn_txt_lay2_cat_chart">Anual</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="all_btn_txt_lay3_cat_chart">Todo</string>
+    <string name="today_btn_txt_lay3_cat_chart">Hoy</string>
+    <string name="weekly_btn_txt_lay3_cat_chart">Semanal</string>
+    <string name="monthly_btn_txt_lay3_cat_chart">Mensual</string>
+    <string name="yearly_btn_txt_lay3_cat_chart">Anual</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="total_inc_txt_lay4_cat_chart">Ingreso Total</string>
+    <string name="total_exp_txt_lay4_cat_chart">Gasto Total</string>
+    <string name="balance_txt_lay4_cat_chart">Saldo</string>
+
+    // {------------------------------Layout 5------------------------------}
+    <string name="pie_cat_chart_balance">Saldo : </string>
+    <string name="pie_cat_chart_total">Total : </string>
+
+    <string name="income_cat_chart_txt">INGRESO</string>
+    <string name="expense_cat_chart_txt">GASTO</string>
+
+    // {------------------------------Layout 6------------------------------}
+    <string name="category_txt_cat_chart">Categoría</string>
+    <string name="amount_txt_cat_chart">Cantidad</string>
+
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // PaymentMethod Chart
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="payment_method_title">Gráfico de Método de Pago</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="all_btn_txt_lay1_pay_meth">Todo</string>
+    <string name="today_btn_txt_lay1_pay_meth">Hoy</string>
+    <string name="weekly_btn_txt_lay1_pay_meth">Semanal</string>
+    <string name="monthly_btn_txt_lay1_pay_meth">Mensual</string>
+    <string name="yearly_btn_txt_lay1_pay_meth">Anual</string>
+
+    // {------------------------------Layout 2------------------------------}
+    <string name="all_btn_txt_lay2_pay_meth">Todo</string>
+    <string name="today_btn_txt_lay2_pay_meth">Hoy</string>
+    <string name="weekly_btn_txt_lay2_pay_meth">Semanal</string>
+    <string name="monthly_btn_txt_lay2_pay_meth">Mensual</string>
+    <string name="yearly_btn_txt_lay2_pay_meth">Anual</string>
+
+    // {------------------------------Layout 3------------------------------}
+    <string name="total_txt_lay3_pay_meth">Ingreso Total</string>
+
+    // {------------------------------Layout 4------------------------------}
+    <string name="pay_meth_txt_lay4_all_pm">Método de Pago</string>
+    <string name="amount_txt_lay4_all_pm">Cantidad</string>
+    <string name="bar_cat_chart_balance">Total : </string>
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Profile
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="profile_title">Perfil</string>
+    // {------------------------------Layout 1------------------------------}
+    <string name="total_income_profile">Ingreso Total</string>
+    <string name="total_expense_profile">Gasto Total</string>
+    <string name="username_profile">Nombre de Usuario</string>
+    <string name="email_profile">Correo Electrónico</string>
+    <string name="password_profile">Contraseña</string>
+
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // Update Profile
+    //
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    <string name="update_profile_title">Editar Perfil</string>
+    // {------------------------------Layout 1------------------------------}
+
+    <string name="username_update_profile">Nombre de Usuario</string>
+    <string name="email_update_profile">Correo Electrónico</string>
+    <string name="password_update_profile">Contraseña</string>
+    <string name="con_password_update_profile">Confirmar Contraseña</string>
+
+    // {------------------------------Layout 1------------------------------}
+    <string name="btn_update_profile">ACTUALIZAR PERFIL</string>
+
+
+
+
+
+</resources>

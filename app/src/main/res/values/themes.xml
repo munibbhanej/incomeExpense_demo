@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.INCOME_AND_EXPENSE" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/statusbar_color_light</item>// statusbar_color change
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Add custom attributes -->
+        <item name="customButtonColor">@color/lightButtonColor</item>// add_inc_button_background
+        <item name="customButtonTextColor">@color/lightButtonTextColor</item>//  add_inc_button_text_color
+        <item name="customBackgroundColor">@color/lightBackground</item> // add_inc_background
+        <item name="backgroundColor">@color/toolbar_color_light</item> //  toolbar_color_change
+        <item name="customTextColor">@color/lightText1</item>
+        <item name="android:textColor">@color/lightText2</item>
+        <item name="colorCardBackground">@color/lightCardview</item>
+        <item name="listItemTextColor">@color/listItemTextColorLight</item>
+        <item name="navDrawerBackgroundColor">@color/navDrawerBackgroundLight</item>
+        <item name="navDrawerTextColor">@color/navDrawerTextLight</item>
+    </style>
+
+    <style name="Theme.INCOME_AND_EXPENSE" parent="Base.Theme.INCOME_AND_EXPENSE" />
+
+
+    <!-- Theme.AppCompat.Light is not a dialog theme -->
+    <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- BackgroundColor of the date modal -->
+        <item name="colorAccent">#00579C</item>
+    </style>
+
+
+</resources>
