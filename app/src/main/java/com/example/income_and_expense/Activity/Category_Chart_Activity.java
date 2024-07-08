@@ -120,7 +120,7 @@ public class Category_Chart_Activity extends AppCompatActivity {
     private void toolbar() {
         back_icon_toolbar = findViewById(R.id.lefticon_toolbar);
         text_toolbar = findViewById(R.id.text_toolbar);
-        text_toolbar.setText(R.string.payment_method_title);
+        text_toolbar.setText(R.string.category_chart_title);
 
         back_icon_toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
