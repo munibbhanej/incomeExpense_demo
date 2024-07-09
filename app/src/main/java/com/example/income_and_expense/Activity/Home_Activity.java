@@ -203,6 +203,8 @@ public class Home_Activity extends AppCompatActivity {
         userEmail = intent.getStringExtra("USER_EMAIL");
 
 
+
+
         // Create Database
         db = createDatabase();
         createTable1();
@@ -239,6 +241,8 @@ public class Home_Activity extends AppCompatActivity {
 
 
     }
+
+
 
     //x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
 
@@ -364,6 +368,7 @@ public class Home_Activity extends AppCompatActivity {
         try {
             String query = "SELECT name, img FROM loginandregister_table WHERE email = ?";
             Cursor cursor = db.rawQuery(query, new String[]{userEmail});
+
 
             if (cursor.moveToFirst()) {
                 String name = cursor.getString(cursor.getColumnIndex("name"));
@@ -963,37 +968,6 @@ public class Home_Activity extends AppCompatActivity {
 
     }
 
-
-//        androidx.appcompat.app.AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//        builder.setTitle("Choose Language")
-//                .setItems(languages, (dialog, which) -> {
-//                    switch (which) {
-//                        case 0:
-//                            setLocal("en");
-//                            break;
-//                        case 1:
-//                            setLocal("es");
-//                            break;
-//                        case 2:
-//                            setLocal("hi");
-//                            break;
-//                        case 3:
-//                            setLocal("ur");
-//                            break;
-//                        case 4:
-//                            setLocal("gu");
-//                            break;
-//                    }
-//                    updateText();
-//                     Restart activity to apply language change
-//                    Intent intent = getIntent();
-//                    finish();
-//                    startActivity(intent);
-//                });
-//        builder.create().show();
-
-//    }
-
     private void setLocal(String lang) {
         Locale locale = new Locale(lang);
         Locale.setDefault(locale);
@@ -1093,7 +1067,7 @@ public class Home_Activity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("AccountPrefs", MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("SELECTED_EMAIL", email);
-        editor.apply();
+
     }
 
     //LoadSelectedAccount Method
@@ -1208,10 +1182,14 @@ public class Home_Activity extends AppCompatActivity {
                 String name = cursor.getString(cursor.getColumnIndex("name"));
                 pra_txt_home.setText(email);
                 toolbar.setTitle(name);
+
+
             } else {
                 pra_txt_home.setText("Email not found");
             }
             cursor.close();
+
+
 
 
             setImageView_and_Textview_nav();

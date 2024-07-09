@@ -138,6 +138,7 @@ public class Profile_Activity extends AppCompatActivity {
         Intent intent = getIntent();
         userEmail = intent.getStringExtra("USER_EMAIL");
 
+
         database = CreateDatabase();
 
 
@@ -179,6 +180,7 @@ public class Profile_Activity extends AppCompatActivity {
                 Intent intent = new Intent(Profile_Activity.this, Home_Activity.class);
                 intent.putExtra("USER_EMAIL", userEmail);
                 startActivity(intent);
+
             }
         });
 
