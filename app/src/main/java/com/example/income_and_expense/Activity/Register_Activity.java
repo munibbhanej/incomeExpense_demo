@@ -330,3 +330,51 @@ public class Register_Activity extends AppCompatActivity {
     }
 
 }
+
+// <-------------------------------------------------------------------- Languages  ------------------------------------------------------------------------------>
+
+
+//    private void setLocal(String lang) {
+//        Locale locale = new Locale(lang);
+//        Locale.setDefault(locale);
+//        Resources resources = getResources();
+//        DisplayMetrics dm = resources.getDisplayMetrics();
+//        Configuration config = resources.getConfiguration();
+//        config.setLocale(locale);
+//        resources.updateConfiguration(config, dm);
+//        // Save the selected language in SharedPreferences
+//        saveLanguage(lang);
+//    }
+//
+//    private void saveLanguage(String lang) {
+//        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+//        SharedPreferences.Editor editor = prefs.edit();
+//        editor.putString("selected_language", lang);
+//        editor.apply();
+//    }
+//
+//    private String getSavedLanguage() {
+//        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+//        return prefs.getString("selected_language", "en"); // Default to English
+//    }
+
+
+// <-------------------------------------------------------------------- Update Text ------------------------------------------------------------------------------>
+//    private void updateText() {
+//        // Layout ---- 1
+//        income__addIncome.setText(R.string.income_txt_lay1_addIncome);
+//
+//        // Layout ---- 2
+//        category_addIncome.setText(R.string.category_txt_lay2_addIncome);
+//
+//
+//        // Layout ---- 3
+//        paymentMethod_addIncome.setText(R.string.paymentMethod_txt_lay3_addIncome);
+//
+//        // Layout ---- 4
+//        notes_addIncome.setText(R.string.notes_txt_lay4_addIncome);
+//
+//
+//        // Layout ---- 5
+//        income_save_btn.setText(R.string.save_btn_txt_lay5_addIncome);
+//    }
